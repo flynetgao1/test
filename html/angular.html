@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body ng-app="myApp">
+<div>
+    <h3>{{2+2}}</h3>
+</div>
+
+<div>
+    <input type="text" ng-model="data.message">
+    {{data.message}}
+</div>
+
+<div>
+    <input type="text" ng-model="data.message">
+    {{data.message}}
+</div>
+
+<div>
+    <input type="text" ng-model="data.message">
+    {{data.message}}
+</div>
+
+<h1>controller</h1>
+<div ng-controller="firstCtrl">
+    <input type="text" ng-model="Data.name">
+    {{Data.message + Data.name|uppercase}}
+</div>
+
+<div ng-controller="secondCtrl">
+    <input type="text" ng-model="Data.name2">
+    {{Data.message +"("+ (Data.name2|reverse)+")"}}
+</div>
+<script src="../lib/angular/angular.min.js"></script>
+<script type="text/javascript" src="../js/angular.test.js"></script>
+</body>
+</html>

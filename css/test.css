@@ -1,0 +1,7 @@
+.s-sprite { background-image: url('i/s-s2f4e549bcd.png'); background-repeat: no-repeat; }
+
+body, p, a, ul, li, ol, dl, dt, dd, h1, h2, h3, h4, h5, h6, strong, em, span, div, nav, footer, aside, option, select, header { margin: 0; padding: 0; }
+
+html, body { height: 100%; font-size: 62.5%; }
+
+a, input { outline: none; }
